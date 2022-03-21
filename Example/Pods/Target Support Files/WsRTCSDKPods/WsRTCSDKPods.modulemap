@@ -1,0 +1,6 @@
+framework module WsRTCSDKPods {
+  umbrella header "WsRTCSDKPods-umbrella.h"
+
+  export *
+  module * { export * }
+}

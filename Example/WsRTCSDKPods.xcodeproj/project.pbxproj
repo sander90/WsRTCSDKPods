@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		039CF056AD90DD854010C386 /* Pods-WsRTCSDKPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WsRTCSDKPods_Tests.release.xcconfig"; path = "Target Support Files/Pods-WsRTCSDKPods_Tests/Pods-WsRTCSDKPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		07302282A65EC698DAE02C75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		07302282A65EC698DAE02C75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		415841DDE9B6312FF1746691 /* Pods-WsRTCSDKPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WsRTCSDKPods_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WsRTCSDKPods_Tests/Pods-WsRTCSDKPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -29,8 +29,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6C9CD632D17A8A037B6A1AB4 /* Pods_WsRTCSDKPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WsRTCSDKPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FF165FDF2D34566543E66CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D870042077AC0B764ABD6B2D /* WsRTCSDKPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WsRTCSDKPods.podspec; path = ../WsRTCSDKPods.podspec; sourceTree = "<group>"; };
+		8FF165FDF2D34566543E66CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D870042077AC0B764ABD6B2D /* WsRTCSDKPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WsRTCSDKPods.podspec; path = ../WsRTCSDKPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,6 @@
 				415841DDE9B6312FF1746691 /* Pods-WsRTCSDKPods_Tests.debug.xcconfig */,
 				039CF056AD90DD854010C386 /* Pods-WsRTCSDKPods_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

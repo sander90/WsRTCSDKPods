@@ -1,0 +1,22 @@
+{
+  "name": "WsRTCSDKPods",
+  "version": "0.1.0",
+  "summary": "A short description of WsRTCSDKPods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sander/WsRTCSDKPods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sander": "sander.shan@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/sander/WsRTCSDKPods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WsRTCSDKPods/Classes/**/*"
+}
