@@ -150,7 +150,7 @@
 				ORGANIZATIONNAME = sander;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+						DevelopmentTeam = R3UPR8V78Z;
 					};
 				};
 			};
@@ -327,6 +327,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 415841DDE9B6312FF1746691 /* Pods-WsRTCSDKPods_Tests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = R3UPR8V78Z;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -342,7 +344,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WsRTCSDKPods_Example.app/WsRTCSDKPods_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -351,6 +352,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 039CF056AD90DD854010C386 /* Pods-WsRTCSDKPods_Tests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = R3UPR8V78Z;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -362,7 +365,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WsRTCSDKPods_Example.app/WsRTCSDKPods_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

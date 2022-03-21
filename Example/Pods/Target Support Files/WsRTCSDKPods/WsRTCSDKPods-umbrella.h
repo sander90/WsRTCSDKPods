@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "RTCVideoRenderer.h"
+#import "WsRTC.h"
+#import "WsRTCLive.h"
+#import "WsRTCLiveManager.h"
+#import "WsRTCLiveView.h"
 
 FOUNDATION_EXPORT double WsRTCSDKPodsVersionNumber;
 FOUNDATION_EXPORT const unsigned char WsRTCSDKPodsVersionString[];

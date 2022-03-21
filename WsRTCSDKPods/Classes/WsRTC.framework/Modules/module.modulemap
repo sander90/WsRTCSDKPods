@@ -1,0 +1,6 @@
+framework module WsRTC {
+  umbrella header "WsRTC.h"
+
+  export *
+  module * { export * }
+}

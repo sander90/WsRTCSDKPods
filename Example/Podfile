@@ -1,6 +1,4 @@
 use_frameworks!
 target 'WsRTCSDKPods_Tests' do
   pod 'WsRTCSDKPods', :path => '../'
-  
-  
 end

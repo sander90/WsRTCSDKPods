@@ -21,22 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/sander/WsRTCSDKPods'
+  s.homepage         = 'https://github.com/sander90/WsRTCSDKPods'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sander' => 'sander.shan@yahoo.com' }
-  s.source           = { :git => 'https://github.com/sander/WsRTCSDKPods.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sander90/WsRTCSDKPods.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.vendored_frameworks = 'XRGcSDKPods/Classes/*.framework'
   s.source_files = 'WsRTCSDKPods/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'WsRTCSDKPods' => ['WsRTCSDKPods/Assets/*.png']
-  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'CoreMotion', 'WebKit', 'AVKit', 'AVFoundation'
 end

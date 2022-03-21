@@ -1,9 +1,9 @@
 {
   "name": "WsRTCSDKPods",
   "version": "0.1.0",
-  "summary": "A short description of WsRTCSDKPods.",
+  "summary": "接入WsRTC.framwork加入项目中",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sander/WsRTCSDKPods",
+  "homepage": "https://github.com/sander90/WsRTCSDKPods",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,26 @@
     "sander": "sander.shan@yahoo.com"
   },
   "source": {
-    "git": "https://github.com/sander/WsRTCSDKPods.git",
+    "git": "https://github.com/sander90/WsRTCSDKPods.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "WsRTCSDKPods/Classes/**/*"
+  "vendored_frameworks": "XRGcSDKPods/Classes/*.framework",
+  "source_files": "WsRTCSDKPods/Classes/**/*",
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreTelephony",
+    "QuartzCore",
+    "CoreText",
+    "CoreGraphics",
+    "UIKit",
+    "Foundation",
+    "CFNetwork",
+    "CoreMotion",
+    "WebKit",
+    "AVKit",
+    "AVFoundation"
+  ]
 }
