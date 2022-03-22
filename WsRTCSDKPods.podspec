@@ -30,8 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
   s.vendored_frameworks = 'WsRTCSDKPods/Classes/*.framework'
-  s.source_files = 'WsRTCSDKPods/Classes/**/*'
+#  s.source_files = 'WsRTCSDKPods/Classes/**/*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'CoreMotion', 'WebKit', 'AVKit', 'AVFoundation'
+  s.frameworks = 'SystemConfiguration', 'CoreGraphics', 'UIKit', 'Foundation', 'AVKit', 'AVFoundation'
+
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 end

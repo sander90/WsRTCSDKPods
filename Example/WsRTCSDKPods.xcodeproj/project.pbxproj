@@ -192,10 +192,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WsRTCSDKPods_Tests/Pods-WsRTCSDKPods_Tests-frameworks.sh",
+				"${PODS_ROOT}/../../WsRTCSDKPods/Classes/WsRTC.framework",
 				"${BUILT_PRODUCTS_DIR}/WsRTCSDKPods/WsRTCSDKPods.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WsRTC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WsRTCSDKPods.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

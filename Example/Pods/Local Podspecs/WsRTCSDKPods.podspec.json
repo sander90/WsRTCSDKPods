@@ -1,6 +1,6 @@
 {
   "name": "WsRTCSDKPods",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "接入WsRTC.framwork加入项目中",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/sander90/WsRTCSDKPods",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/sander90/WsRTCSDKPods.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "vendored_frameworks": "XRGcSDKPods/Classes/*.framework",
+  "vendored_frameworks": "WsRTCSDKPods/Classes/*.framework",
   "source_files": "WsRTCSDKPods/Classes/**/*",
   "frameworks": [
     "SystemConfiguration",

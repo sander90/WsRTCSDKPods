@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "SDWsRTCHeader.h"
 #import "RTCVideoRenderer.h"
 #import "WsRTC.h"
 #import "WsRTCLive.h"

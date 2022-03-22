@@ -2,3 +2,14 @@ use_frameworks!
 target 'WsRTCSDKPods_Tests' do
   pod 'WsRTCSDKPods', :path => '../'
 end
+### HOOK POST
+post_install do |installer|
+    installer.pods_project.native_targets.each do |natviTarget|
+        natviTarget.build_phases.each do |buildPhase|
+            info_plist_ref = buildPhase.files.find { |f| f.file_ref.to_s == "Info.plist" }
+            if info_plist_ref
+               buildPhase.remove_reference(info_plist_ref)
+            end
+        end
+    end
+end
