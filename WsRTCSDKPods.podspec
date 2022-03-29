@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WsRTCSDKPods'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '接入WsRTC.framwork加入项目中'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'WsRTCSDKPods/Classes/*.framework'
 #  s.source_files = 'WsRTCSDKPods/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'WsRTCSDKPods/Classes/**/*.h'
   s.frameworks = 'SystemConfiguration', 'CoreGraphics', 'UIKit', 'Foundation', 'AVKit', 'AVFoundation'
 
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
